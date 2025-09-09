@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    deploy:
+      replicas: 2
+    ports:
+      - "80"
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  # Nginx como load balancer
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-loadbalancer
+    ports:
+      - "81:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - app
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge

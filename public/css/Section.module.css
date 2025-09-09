@@ -1,0 +1,169 @@
+.midsection {
+  width: 100%;
+  position: relative;
+  background-color: #2a2a2a;
+  height: 419px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: Geist;
+}
+.container {
+  position: absolute;
+  width: calc(100% - 640px);
+  top: 50px;
+  right: 320px;
+  left: 320px;
+  height: 180px;
+  font-size: 36px;
+}
+.heading1 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 256.24px);
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 512.9px;
+  height: 40px;
+}
+.ajudeNosAEncontrarContainer {
+  position: absolute;
+  top: 58.4px;
+  left: calc(50% - 441.32px);
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 882.8px;
+  height: 51.2px;
+}
+.midsectionAjudeNosAEncontrarContainer {
+  width: 100%;
+}
+.ajudeNosAEncontrar {
+  margin: 0;
+}
+.cardtotalcasos {
+  position: absolute;
+  height: calc(100% - 263px);
+  width: calc(100% - 1253.3px);
+  top: 199px;
+  right: 926.3px;
+  bottom: 64px;
+  left: 327px;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  background-color: #393939;
+}
+.svgIcon {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 16.01px);
+  width: 32px;
+  height: 32px;
+}
+.b {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 30.25px);
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60.8px;
+  height: 36px;
+}
+.totalDeCasos {
+  position: absolute;
+  top: 112px;
+  left: calc(50% - 48.04px);
+  font-size: 14px;
+  line-height: 20px;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96.4px;
+  height: 20px;
+}
+.cardpessoasdesaparecidas {
+  position: absolute;
+  height: calc(100% - 263px);
+  width: calc(100% - 1253.3px);
+  top: 199px;
+  right: 619.63px;
+  bottom: 64px;
+  left: 633.67px;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  background-color: #393939;
+}
+.midsectionSvgIcon {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 16.02px);
+  width: 32px;
+  height: 32px;
+}
+.midsectionB {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 30.04px);
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60.4px;
+  height: 36px;
+}
+.pessoasDesaparecidas {
+  position: absolute;
+  top: 112px;
+  left: calc(50% - 77.42px);
+  font-size: 14px;
+  line-height: 20px;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155.1px;
+  height: 20px;
+}
+.cardpessoasencontradas {
+  position: absolute;
+  height: calc(100% - 263px);
+  width: calc(100% - 1253.3px);
+  top: 200px;
+  right: 312.96px;
+  bottom: 63px;
+  left: 940.34px;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  background-color: #393939;
+}
+.b2 {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 28.83px);
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 36px;
+}
+.pessoasEncontradas {
+  position: absolute;
+  top: 112px;
+  left: calc(50% - 70.01px);
+  font-size: 14px;
+  line-height: 20px;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140.3px;
+  height: 20px;
+}
